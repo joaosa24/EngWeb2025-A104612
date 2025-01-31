@@ -1,4 +1,4 @@
-# Repositório EW::A104612
+# Repositório EW2025::A104612
 
 **Autor:** João Sá, A104612  
 ![Foto](assets/new.jpg)
