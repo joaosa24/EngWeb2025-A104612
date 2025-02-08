@@ -1,7 +1,8 @@
-# Repositório EW2025::A104612
+# Engenharia Web 2025
 
-**Autor:** João Sá, A104612  
-![Foto](assets/new.jpg)
+**Autor:** João Sá
+**Nº:** A104612  
+![Foto](https://avatars.githubusercontent.com/u/116807604?v=4)
 
 ## Sobre este Repositório
 
