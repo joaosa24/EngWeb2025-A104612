@@ -1,4 +1,4 @@
-# TPC1 - Trabalho Prático semana 2 (19/02/2025)
+# TPC2 - Trabalho Prático semana 2 (19/02/2025)
 
 ## Informação do Aluno
 
