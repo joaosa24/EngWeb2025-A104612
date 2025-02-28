@@ -1,0 +1,55 @@
+{
+  "alunos": [
+    {
+      "id": "A100893",
+      "nome": "Luís de Castro Rodrigues Caetano",
+      "gitLink": "https://github.com/056zedelta/EngWeb2024.git"
+    },
+    {
+      "id": "A100701",
+      "nome": "Pedro Duarte Nobre Viana",
+      "gitLink": "https://github.com/dvianaa/EngWeb2024"
+    },
+    {
+      "id": "A100758",
+      "nome": "Hugo Arantes Dias",
+      "gitLink": "https://github.com/hugodiasUM/EngWeb2024/tree/main"
+    },
+    {
+      "id": "A100615",
+      "nome": "João Miguel Mendes Moura",
+      "gitLink": "https://github.com/joaomoura12/EngWeb2024"
+    },
+    {
+      "id": "A100759",
+      "nome": "Pedro Afonso Moreira Lopes",
+      "gitLink": "https://github.com/LerdoPopes/EngWeb2024/tree/main/TPC1"
+    },
+    {
+      "id": "A96208",
+      "nome": "Rafael João Ferreira Gomes",
+      "gitLink": "RafaGomes1/EngWeb2024 (github.com)"
+    },
+    {
+      "id": "A97455",
+      "nome": "Henrique Nuno Marinho Malheiro",
+      "gitLink": "https://github.com/a97455/EngWeb2024"
+    },
+    {
+      "id": "A104612",
+      "nome": "João Pedro Ribeiro de Sá",
+      "gitLink": "https://github.com/joaosa",
+      "tpc1": "1",
+      "tpc2": "1",
+      "tpc3": "1",
+      "tpc4": "1",
+      "tpc5": "1",
+      "tpc6": "1"
+    },
+    {
+      "id": "A104611",
+      "nome": "João Manuel Machado da Cunha",
+      "gitLink": "https://github.com/JoaoCunha50"
+    }
+  ]
+}
