@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    .w3-container.w3-padding-0(style="height:100vh;") 
+        .w3-card-4.w3-margin-0.w3-round-large.w3-white(style="height:100%; display:flex; flex-direction:column;")
+            header.w3-container.w3-blue.w3-center.w3-padding
+                h1.w3-xxlarge.w3-text-white= title
+            .w3-container.w3-responsive(style="flex-grow:1; overflow:auto;")
+                table.w3-table-all.w3-hoverable.w3-striped.w3-round-large(style="table-layout: fixed; width: 100%;")
+                    thead
+                        tr.w3-blue.w3-text-white
+                            th.w3-light-grey(style="width: 10%") ID Contrato
+                            th.w3-light-grey(style="width: 40%") Objeto
+                            th.w3-light-grey(style="width: 10%") Data Celebração
+                            th.w3-light-grey(style="width: 10%") Preço
+                            th.w3-light-grey(style="width: 10%") NIPC
+                            th.w3-light-grey(style="width: 20%") Entidade
+                    tbody
+                        each c in contratos
+                            tr
+                                td
+                                    a.w3-text-blue.w3-hover-opacity(href='/'+c.idcontrato)= c.idcontrato
+                                td(style="word-wrap: break-word;")= c.objectoContrato
+                                td= c.dataCelebracaoContrato
+                                td.w3-text-green.w3-bold= c.precoContratual + "€"
+                                td
+                                    a.w3-text-indigo.w3-hover-opacity(href='/entidades/'+c.NIPC_entidade_comunicante)= c.NIPC_entidade_comunicante
+                                td(style="word-wrap: break-word;")= c.entidade_comunicante

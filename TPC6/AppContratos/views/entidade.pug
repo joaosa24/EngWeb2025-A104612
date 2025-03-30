@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    .w3-container.w3-padding-0(style="height:100vh;")
+        .w3-white.w3-margin-0.w3-round-large(style="height:100%; display:flex; flex-direction:column;")
+            header.w3-container.w3-blue.w3-center.w3-padding
+                h1.w3-xxlarge.w3-text-white Entidade: #{entidade}
+                h3.w3-large.w3-text-white NIPC: #{nipc}
+            .w3-container(style="flex-grow:1; overflow:auto;")
+                h3.w3-xxlarge Contratos:
+                table.w3-table-all.w3-hoverable.w3-striped.w3-round-large
+                    thead
+                        tr.w3-blue.w3-text-white
+                            th.w3-light-grey ID Contrato
+                            th.w3-light-grey Objeto
+                            th.w3-light-grey Data Celebração
+                            th.w3-light-grey Preço
+                    tbody
+                        each c in contratos
+                            tr
+                                td
+                                    a.w3-text-blue.w3-hover-opacity(href='/contratos/'+c.idcontrato)= c.idcontrato
+                                td= c.objectoContrato
+                                td= c.dataCelebracaoContrato
+                                td.w3-text-green.w3-bold= c.precoContratual + "€"
+            .w3-container.w3-padding.w3-center
+                h3.w3-large.w3-text-green Valor Total dos Contratos: #{total.toFixed(2)}€
+                a.w3-button.w3-blue.w3-round-large.w3-hover-opacity(href='/') Voltar
