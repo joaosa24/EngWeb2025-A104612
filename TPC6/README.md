@@ -1,4 +1,4 @@
-# TPC3 - Trabalho Prático 6 (30/03/2025)
+# TPC6 - Trabalho Prático 6 (30/03/2025)
 
 ## Informação do Aluno
 
