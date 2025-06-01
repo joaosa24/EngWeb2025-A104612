@@ -62,12 +62,12 @@ Como é possível observar no esquema, um utilizador tem um email, um *username*
 
 
 #### Screenshots
-| ![Login Page ](/docs/pics/loginPage.png) |
+| ![Login Page ](./docs/pics/loginPage.png) |
 | :------------------------------------------: |
 |               Página de *Login*                |
 
 
-| ![Register Page ](/docs/pics/registerPage.png) |
+| ![Register Page ](./docs/pics/registerPage.png) |
 | :------------------------------------------: |
 |               Página de *Register*               |
 
@@ -77,7 +77,7 @@ Na página inicial, um utilizador consegue ver e aceder às publicações com es
 
 #### Screenshots
 
-| ![Register Page ](/docs/pics/mainPage.png) |
+| ![Register Page ](./docs/pics/mainPage.png) |
 | :------------------------------------------: |
 |               Página Inicial               |
 
@@ -117,15 +117,15 @@ Deste esquema, é possível verificar que um *post* tem um *producer* (autor), u
 Nas páginas das publicações, os utilizadores tẽm a liberdade de descarregar os ficheiros da mesma publicação. Por outro lado, na página de edição, o administrador pode editar os campos e até mesmo remover a publicação.
 
 ### Screenshots
-| ![Página Post](/docs/pics/postPage.png) |
+| ![Página Post](./docs/pics/postPage.png) |
 | :------------------------------------------: |
 |               Página de Post para um utilizador               |
 
-| ![Página Editar Post ](/docs/pics/postPageAdmin.png) |
+| ![Página Editar Post ](./docs/pics/postPageAdmin.png) |
 | :------------------------------------------: |
 |               Página de edição de um Post               |
 
-| ![Página Adicionar Post ](/docs/pics/adicionarPost.png) |
+| ![Página Adicionar Post ](./docs/pics/adicionarPost.png) |
 | :------------------------------------------: |
 |               Página de adicionar um Post               |
 
@@ -140,31 +140,31 @@ Na página de *logs*, o administrador tem acesso à lista de todas as logs (*do 
 
 Por fim, nas páginas de estatísticas, o administrador tem a seu dispor informações retiradas a partir das logs. Aqui, o administrador tem acesso ao número total de *requests*, de *logins*, e à taxa de sucesso dos pedidos. Para além disso, esta *dashboard* conta com um gráfico de horas de pico (*bar chart*), um gráfico de proporção dos códigos de *status* (*pie chart*) e 3 listas com os *URLs* mais acedidos, as publicações mais acedidas e as mais descarregadas.
 
-| ![Dashboard Admin ](/docs/pics/dashboardAdmin.png) |
+| ![Dashboard Admin ](./docs/pics/dashboardAdmin.png) |
 | :------------------------------------------: |
 |               Página Inicial do Administrador          |
 
-| ![Dashboard de Manage de Users ](/docs/pics/usersManageAdmin.png) |
+| ![Dashboard de Manage de Users ](./docs/pics/usersManageAdmin.png) |
 | :------------------------------------------: |
 |               Página de gestão de Utilizadores               |
 
-| ![Página editar user ](/docs/pics/editUserAdmin.png) |
+| ![Página editar user ](./docs/pics/editUserAdmin.png) |
 | :------------------------------------------: |
 |               Página de editar um Utilizador               |
 
-| ![Página adicionar user ](/docs/pics/addUserAdmin.png) |
+| ![Página adicionar user ](./docs/pics/addUserAdmin.png) |
 | :------------------------------------------: |
 |               Página de adicionar um Utilizador               |
 
-| ![Página de logs ](/docs/pics/logsAdmin.png) |
+| ![Página de logs ](./docs/pics/logsAdmin.png) |
 | :------------------------------------------: |
 |               Página de logs                |
 
-| ![Página de stats ](/docs/pics/statsAdmin1.png) |
+| ![Página de stats ](./docs/pics/statsAdmin1.png) |
 | :------------------------------------------: |
 |               Página de estatísticas 1                |
 
-| ![Página de stats 2 ](/docs/pics/statsAdmin2.png) |
+| ![Página de stats 2 ](./docs/pics/statsAdmin2.png) |
 | :------------------------------------------: |
 |               Página de estatísticas 2                |
 
